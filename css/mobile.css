@@ -1,0 +1,39 @@
+@media screen and (max-width: 1024px) {
+
+.wrapper figure{
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+.content {
+    font-size: 45px;
+}
+
+
+.content button {
+    width: 25%;
+    height: 80px;
+    margin-top: 5%;
+    border-radius: 9px;
+    font-size: 30px;
+    transition: none;
+}
+
+
+.content button:hover{
+  box-shadow: none;
+  outline: none;
+}
+
+.content button:hover span {
+  padding-right: 0;
+}
+
+.content button:hover span:after {
+  opacity:0;
+  right: 0;
+}
+
+
+}
