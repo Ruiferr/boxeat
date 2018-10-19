@@ -1,0 +1,123 @@
+/* Desktop */
+
+@media screen and (min-width: 768px) {
+
+	#main_video {
+	    min-height: 100vh;
+	    height: inherit;
+	}
+
+	header #open-menu {
+	    width: 35%;
+	    padding-left: 30%;
+	    padding-right: 55%;
+	}
+
+	header #close-menu {
+    	display: none;
+    	height: 4vh;
+    	margin-top: 3vh;
+    	padding-bottom: 3vh;
+	}
+
+	header .login {
+    	padding-right: 4%;
+	}
+
+	header .login button {
+	    font-size: 1.2em;
+	}
+
+	.wrapper figure {
+	    width: 35%;
+	    margin-left: 32.5%;
+	}
+
+	.content {
+    	font-size: 1.2em;
+	}
+
+	.content button {
+	    width: 21%;
+	    margin-top: 3%;
+	    font-size: 0.8em;
+	    padding: 12px;
+	}
+
+
+
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 481px) and (max-width:768px) {
+
+header #open-menu {
+    width: 55%;
+    padding-left: 22.5%;
+    padding-right: 22.5%;
+}
+
+header #close-menu {
+    display: none;
+    height: 4vh;
+    margin-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.wrapper figure {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.content {
+    font-size: 1.7em;
+}
+
+header .login {
+    font-size: 1em;
+}
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 850px) and (orientation: landscape) {
+
+
+	header{
+		height: 15vh;
+	}
+
+	header #open-menu {
+    	margin-top: 2vh;
+	}
+
+
+	header #close-menu {
+	    height: 6vh;
+	    margin-top: 4.5vh;
+	    padding-bottom: 4.5vh;
+	}
+
+	header .login {
+    	height: 15vh;
+	}
+	
+	.slide {
+    	margin-top: 15vh;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

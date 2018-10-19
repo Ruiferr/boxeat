@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    font-family: Arial;
     font-size: 17px;
 }
 
@@ -9,7 +8,7 @@ body {
     right: 0;
     bottom: 0;
     min-width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 header{
@@ -21,91 +20,182 @@ header{
     border-bottom: 1px solid #b5b5b5;
 }
 
+header .burger{
+    float: left;
+    width: 14%;
+    padding-right: 4%;
+    padding-left: 4%;
+    position: absolute;
+    background-color: transparent;
+    z-index: 2;
+}
+
+header .login{
+    right: 0;
+    font-family: Exp;
+    height: 10vh;
+    padding-right: 10px;
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+}
+
+header .login button{
+    font-family: Exp;
+    color: white;
+    cursor: pointer;
+    font-size: 0.7em;
+    width: 100%;
+    align-items: center;
+    background: transparent;
+    border: none;
+}
+
+header img{
+    opacity: 0.8;
+    width: 100%;
+    height: 10vh;
+    float: left;
+    cursor: pointer;
+}
+
+header #open-menu{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header #close-menu{
+    display: none;
+    height: 4vh;
+    margin-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.slide{
+    background: #000000;
+    position: absolute;
+    width: 22%;
+    margin-top: 10vh;
+    min-height: 90vh;
+    z-index: 5;
+    opacity: 0.90;
+    border-top: 1px solid white;
+    display: none;
+}
+
+.slide ul{
+    width: 100%;
+    padding-top: 10vh;
+    font-size: 1em;
+}
+
+.slide li{
+    width: 100%;
+    text-align: center;
+    height: 75px;
+}
+
+.slide li a{
+  text-decoration: none;
+  color: white;
+  font-family: Exp;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.slide li a:active{
+    color: #e27339;
+}
+
+.slide p{
+    color: #ffffffbd;
+    font-family: Exp;
+    font-size: 0.7em;
+}
+
+.slide span{
+    margin-top: 2.5vh;
+    font-size: 1em;
+    float: left;
+    text-align: center;
+    width: 100%;
+    font-family: monospace;
+    color: white;
+}
+
+.slide li img{
+    width: 25%;
+    padding: 12%;
+    float: left;
+    cursor: pointer;
+}
+
+.slide figure{
+    margin-left: 35%;
+    width: 30%;
+    float: left;
+}
+
+
 .wrapper{
     float: left;
     position: absolute;
     margin-top: 10vh;
     width: 100%;
-    height: 75vh;
+    height: 90vh;
 }
 
-figure{
-    width: 40vw;
+.wrapper figure{
+    width: 65%;
     float: left;
-    margin-left: 30vw;
-    margin-top: 25vh;
+    margin-left: 17.5%;
+    margin-top: 15vh;
 }
 
-img{
-	width: 100%;
-	opacity: 0.75;
+.wrapper img{
+    width: 100%;
+    opacity: 0.75;
 }
 
 .content{
-	float: left;
+	  float: left;
     width: 100%;
-    font-family: Andale Mono;
-    font-size: 24px;
+    font-family: Exp;
+    font-size: 1.1em;
     font-weight: bold;
     color: white;
-    margin-top: 12vh;
+    margin-top: 23vh;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .content button{
-
-    width: 20%;
-    height: 30px;
-    border: none;
-    margin-top: 20px;
-    border-radius: 6px;
-    font-size: 15px;
-    background: #00000033;
+    width: 30%;
+    margin-top: 5%;
+    border-radius: 5px;
+    font-size: 0.7em;
+    background: #0000003b;
     border: 1px solid white;
     color: white;
     cursor: pointer;
-    transition: 0.5s all linear;
     outline: none;
-
+    padding: 9px;
 }
 
 .content button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-family: Exp;
 }
 
-.content button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -10px;
-  transition: 0.5s;
-}
-
-.content button:hover{
-	color: white;
-  background-color: #d1644294;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.53), 0 17px 50px 0 rgba(0, 0, 0, 0.47);
-  outline: none;
-}
 
 .content button:active{
-    background: #97bd2ba6;
-    outline: none;
+    background: #e2733978;
 }
 
-.content button:hover span {
-  padding-right: 15px;
-}
-
-.content button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
 
 
 
