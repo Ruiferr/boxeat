@@ -14,11 +14,28 @@
 	<script type="text/javascript" language="javascript" src="js/main.js"></script>
 </head>
 <body>
+	<!--  		BACKGROUND VIDEO 		 -->
+
 	<video playsinline autoplay muted loop id="main_video">
 	  <source src="vid/video01.mp4" type="video/mp4">
 	  Your browser does not support HTML5 video.
 	</video>
 	<script> document.getElementById('main_video').play(); </script>
+
+
+	<!--  		HEADER 		 -->
+
+	<header>
+		<div class="burger">
+			<img id="open-menu" src="img/menu.svg">
+			<img id="close-menu" src="img/cancel.svg">
+		</div> 
+		<div class="login">
+			<button>Login / Registar</button>
+		</div>
+		
+	</header>
+
 
 	<!--  		SLIDE MENU 		 -->
 
@@ -42,25 +59,28 @@
 		</ul>
 	</nav>
 
+	<!--  		MAIN WRAPPER		 -->
 
-
-	<header>
-		<div class="burger">
-			<img id="open-menu" src="img/menu.svg">
-			<img id="close-menu" src="img/cancel.svg">
-		</div> 
-		<div class="login">
-			<button>Login / Registar</button>
-		</div>
-		
-	</header>
 	<div class="wrapper">
 
-		<figure><img src="img/boxeat-white.png"></figure>
+		<figure class="main_img"><img src="img/boxeat-white.png"></figure>
 		<div class="content">
 		  <h1>Brevemente!</h1>
-		  <button><span>Encomendar</span></button>
+		  <button class="encomendar"><span>Encomendar</span></button>
 		</div>
+		<section>
+			<div class="login_section">
+				<img id="close-section" src="img/cancel.svg">
+				<figure><img src="img/boxeat.png"></figure>
+				<form>
+					<label>Email:</label>
+					<input type="text" name="login_name">
+					<label>Password:</label>
+					<input type="password" name="login_password" autocomplete="new-password">
+				</form>
+				<button>Login</button>
+			</div>
+		</section>
 		
 	</div>
 

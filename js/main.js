@@ -1,3 +1,5 @@
+var section = false;
+
 $( document ).ready(function() {
    
 	$('#open-menu').click(function() {
@@ -33,9 +35,39 @@ $( document ).ready(function() {
 		});
 
 		$('.wrapper').fadeIn(700);
-		$('.login').fadeIn(700);
+		section ? $('.login').hide() : $('.login').fadeIn(700);
+	});
+
+
+	$('.login button').click(function() {
+		$('.login_section').fadeIn(500);
+		$('.content').hide();
+		$('.login').hide();
+		section = true;
 
 	});
+
+
+	$('.encomendar').click(function() {
+		$('.login_section').fadeIn(500);
+		$('.content').hide();
+		$('.login').hide();
+		section = true;
+
+	});
+
+
+	$('#close-section').click(function() {
+		$(this).parent().fadeOut(500);
+		$('.content').fadeIn(500);
+		$('.login').fadeIn(500);
+		section = false;
+
+
+	});
+
+
+
 
 
 });

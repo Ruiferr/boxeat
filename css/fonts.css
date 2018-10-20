@@ -2,3 +2,8 @@
     font-family: Exp;
     src: url('../fonts/ExpletusSans-SemiBold.ttf');
 }
+
+@font-face {
+    font-family: Elec;
+    src: url('../fonts/Electrolize-Regular.ttf');
+}

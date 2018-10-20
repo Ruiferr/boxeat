@@ -49,6 +49,7 @@ header .login button{
     align-items: center;
     background: transparent;
     border: none;
+    outline: none;
 }
 
 header img{
@@ -147,10 +148,10 @@ header #close-menu{
 }
 
 .wrapper figure{
-    width: 65%;
+    width: 55%;
     float: left;
-    margin-left: 17.5%;
-    margin-top: 15vh;
+    margin-left: 22.5%;
+    margin-top: 13vh;
 }
 
 .wrapper img{
@@ -196,6 +197,77 @@ header #close-menu{
     background: #e2733978;
 }
 
+
+.login_section{
+    background: #151413e3;
+    z-index: 1;
+    position: absolute;
+    min-height: 100vh;
+    margin-top: -10vh;
+    display: none;
+    color: white;
+}
+
+.login_section label{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 10%;
+    font-family: Elec;
+}
+
+
+.login_section input{
+    border: none;
+    border-bottom: 1px solid white;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    float: left;
+    height: 22px;
+    text-align: center;
+    outline: none;
+    border-radius: 2px;
+    background: transparent;
+    color: #f5f5f5cf;
+    font-family: monospace;
+}
+
+
+
+.login_section form{
+  margin-top: 30%;
+}
+
+.login_section button{
+    float: left;
+    width: 30%;
+    margin: 10% 0 10% 35%;
+    border-radius: 5px;
+    font-size: 0.7em;
+    background: #00000036;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    padding: 5px;
+    font-family: Elec;
+}
+
+.login_section #close-section{
+    height: 6vh;
+    padding: 2vh;
+    width: 7%;
+    position: absolute;
+    right: 0;
+    margin-right: 2%;
+    cursor: pointer;
+}
+
+.login_section figure{
+    margin-top: 23vh;
+}
 
 
 

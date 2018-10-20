@@ -101,11 +101,27 @@ header .login {
 	header .login {
     	height: 15vh;
 	}
-	
+
+	.wrapper {
+    	margin-top: 15vh;
+	}
+
 	.slide {
     	margin-top: 15vh;
 	}
 
+	.login_section {
+	    margin-top: -15vh;
+	}
+
+	.login_section figure{
+		margin-top: 28vh;
+	}
+
+	.login_section #close-section {
+    	height: 7.5vh;
+    	padding: 3.75vh;
+    }
 
 }
 
