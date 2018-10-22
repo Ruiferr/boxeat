@@ -67,7 +67,14 @@ $( document ).ready(function() {
 	});
 
 
+	$('.slide .boxeat').click(function() {
+		$('.slide').fadeOut(500);
+		$('.boxeat_section').fadeIn(500);
+		$('.content').hide();
+		$('.login').hide();
+		section = true;
 
+	});	
 
 
 });

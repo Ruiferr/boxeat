@@ -41,7 +41,7 @@
 
 	<nav class="slide">
 		<ul>
-			<li><a class="active" href="#">BOXEAT</a></li>
+			<li><a class="boxeat active" href="#">BOXEAT</a></li>
 			<li><a href="#">EMENTA</a></li>
 			<li><a href="#">ENCOMENDAR</a></li>
 			<li style="height:5vh ; margin-bottom: 5vh; width: 50%; margin-left: 25%; border-bottom: 1px solid white"></li>
@@ -69,7 +69,7 @@
 		  <button class="encomendar"><span>Encomendar</span></button>
 		</div>
 		<section>
-			<div class="login_section">
+			<div class="login_section section">
 				<img id="close-section" src="img/cancel.svg">
 				<figure><img src="img/boxeat.png"></figure>
 				<form>
@@ -80,6 +80,12 @@
 				</form>
 				<button>Login</button>
 			</div>
+			<div class="boxeat_section section">
+				<img id="close-section" src="img/cancel.svg">
+				<figure><img src="img/boxeat.png"></figure>
+				<h1>Sobre a boxeat,</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>	
 		</section>
 		
 	</div>
